@@ -1,38 +1,167 @@
-.App {
-  text-align: center;
+/* main color light grey = #F5F4F4 */
+/* main color orage grey = #EC6504 */
+
+.header-main-container {
+  background-color: #f5f4f4;
+  height: 440px;
+  width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header {
+  background: url("./assets/Home/hero-bottom-right-cover.png");
+  height: 440px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+
+.who-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.use-app-container {
+  background-color: #f89c1c;
+  height: 450px;
+  width: 100%;
+  color: #fff;
+}
+.use-app-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.phone-ui {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.app-Store-btn {
+  border: none;
+  background-color: #fff;
+  color: black;
+}
+.appStore {
+  margin-left: 10px;
+}
+
+.chose-services-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.services-card-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.proApp-container {
+  background-color: #f89c1c;
+  height: 450px;
+  width: 100%;
+  color: #fff;
+}
+
+.pro-app-row {
+  display: flex;
+  height: 450px;
+  justify-content: center;
+  align-items: center;
+}
+
+.testi-card {
+  background-color: #f5f4f4 !important;
+}
+
+.services-card {
+  background-color: #f5f4f4 !important;
+}
+.getInTouch-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.getBtn {
+  border: none;
+  background-color: #f89c1c;
+  color: #fff;
+}
+
+footer {
+  background-color: black;
+  color: #fff;
+  height: 250px;
+}
+
+.login-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-btn {
+  background-color: transparent;
+  color: black;
+  padding: 6px 50px;
+}
+.login-btn:hover {
+  background-color: #f89c1c;
+  border: none;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.booking-container {
+  background-color: #e0e0e0;
+  height: 100vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.booking-col9 {
+  background-color: #fff;
+  height: 100vh;
+}
+
+.bookingSideBar {
+  background-color: #fff;
+  padding: 0 0 0 20px;
+}
+
+.pay-btn {
+  border: none;
+  background-color: #f89c1c;
+  padding: 5px 50px;
+  color: #fff;
+}
+
+.bookingList-card {
+  background-color: #f5f4f4 !important;
+  border-radius: 15px;
+}
+
+.admin-panel-container {
+  background-color: #e0e0e0;
+  height: 100vh;
+}
+
+.admin-panel-col9 {
+  background-color: #fff;
+  height: 100vh;
+}
+
+.orderlist {
+  display: flex;
+}
+
+.status {
+  background-color: #f89c1c;
+  color: #fff;
+  padding: 6px 15px;
+  border-radius: 3px;
 }
