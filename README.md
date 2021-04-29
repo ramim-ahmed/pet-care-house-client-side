@@ -31,7 +31,6 @@
   <li>MongoDB</li>
   <li>Firebase<li>
   <li>React Bootstrap</li>
-  
 </ul>
 
 <h3>Screenshot</h3>
